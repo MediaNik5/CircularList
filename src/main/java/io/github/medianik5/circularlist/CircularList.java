@@ -23,7 +23,7 @@ import java.util.NoSuchElementException;
  * Moving pivot element <i>backward</i> is the similar to <i>forward</i>.
  * For example:
  * <pre>
- *     CircularList<Integer> list = getNewCircularList();
+ *     CircularList list = getNewCircularList();
  *     list.add(1);
  *     list.add(2);
  *     list.add(3);
@@ -37,7 +37,7 @@ import java.util.NoSuchElementException;
  * </pre>
  *
  * <pre>
- *     CircularList<Integer> list = getNewCircularList();
+ *     CircularList list = getNewCircularList();
  *     list.add(1);
  *     list.add(2);
  *     list.add(3);
@@ -155,5 +155,5 @@ public interface CircularList<E> extends List<E>{
      * Warning: this function in some cases might take a lot of time to execute.
      * @return true if the specified object is circularly equal to this list.
      */
-    boolean circularlyEqual(Object object);
+    boolean circularlyEquals(Object object);
 }
