@@ -22,8 +22,6 @@ import java.util.NoSuchElementException;
  * {@code 2, 3, 4, 5, ... n, 1}.<p>
  * Moving pivot element <i>backward</i> is the similar to <i>forward</i>.
  * For example:
- * <code>
- * </code>
  * <pre>
  *     CircularList<Integer> list = getNewCircularList();
  *     list.add(1);
