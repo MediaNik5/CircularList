@@ -10,7 +10,7 @@ When you rotate the list, i.e. move pivot element, you change the order of list.
 
 For example, if we have a list with elements [1, 2, 3], its pivot element is 1.  
 If we move pivot element forward(i.e. rotate list), the list becomes [2, 3, 1].  
-If we move pivot element backward(i.e. rotate list backward), the list becomes [3, 1, 2].
+If we rotate original list backward(i.e. move pivot element backward), the list becomes [3, 1, 2].
 
 Circular list is considered immutable if the elements of the list won't change, but order might be changed.  
 The list in the paragraph above is going through immutable operations.
